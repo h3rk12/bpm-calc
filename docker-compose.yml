@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "4200:4200"
+    command: >
+      ash -c "ng serve --host 0.0.0.0"
