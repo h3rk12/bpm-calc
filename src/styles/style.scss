@@ -1,0 +1,70 @@
+@import "~ress";
+@import "./variables";
+
+// Initialize
+//////////////////////////////
+
+%font {
+  font-family: $font-family;
+  font-feature-settings: "pkna" 1;
+  font-weight: $weight-normal;
+}
+
+:root {
+  --primary-text-color: #{$black};
+  --primary-background-color: #{$gray};
+  --divider-color: #{$gray};
+  --endpoint-color: #{$blueberry};
+}
+
+html {
+  @extend %font;
+  font-size: 62.5%;
+  background-color: var(--primary-background-color);
+}
+
+body {
+  @extend html;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  font-size: $size-regular;
+  color: var(--primary-text-color);
+}
+
+// Typography
+//////////////////////////////
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  @extend %font;
+  font-weight: $weight-bold;
+}
+
+// Links
+//////////////////////////////
+a {
+  color: var(--color-endpoint);
+}
+
+// Misc
+//////////////////////////////
+img {
+  vertical-align: top;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+// Utilities
+//////////////////////////////
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

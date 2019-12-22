@@ -1,0 +1,30 @@
+// Colors
+//////////////////////////////
+$black: #121212;
+$gray: #e9e9e9;
+$mint: #72ecd5;
+$raspberry: #ff0076;
+$blueberry: #4caaff;
+
+// Typography
+//////////////////////////////
+$font-family-en: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto;
+$font-family-jp: YuGothic, "Hiragino Kaku Gothic ProN",
+  "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo;
+$font-family: $font-family-en, $font-family-jp, sans-serif;
+
+$size-small: 1.2rem;
+$size-regular: 1.6rem;
+$size-large: 2.4rem;
+$size-xlarge: 3rem;
+$size-xxlarge: 4.8rem;
+
+$weight-normal: 400;
+$weight-bold: 700;
+
+// Spaces
+//////////////////////////////
+$space-small: 8px;
+$space-medium: $space-small * 2;
+$space-large: $space-small * 3;
+$space-xlarge: $space-small * 4;
