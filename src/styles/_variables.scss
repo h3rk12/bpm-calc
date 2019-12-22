@@ -9,8 +9,9 @@ $blueberry: #4caaff;
 // Typography
 //////////////////////////////
 $font-family-en: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto;
-$font-family-jp: YuGothic, "Hiragino Kaku Gothic ProN",
+$font-family-jp: "Source Sans Pro", YuGothic, "Hiragino Kaku Gothic ProN",
   "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo;
+$font-family-num: "Unica One", cursive;
 $font-family: $font-family-en, $font-family-jp, sans-serif;
 
 $size-small: 1.2rem;
